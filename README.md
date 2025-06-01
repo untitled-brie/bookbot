@@ -1,8 +1,8 @@
 # bookbot
 
 # what it does: 
-1. prints the world count of a `*.txt` file to the console.
-2. prints how many times each alphabet character were used in the `*.txt`
+1. prints the world count of a `*.txt` file to the console
+2. prints how many times each alphabet character were used in the `*.txt` to the console
 
 # how to run
 1. clone repo
