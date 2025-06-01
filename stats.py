@@ -22,4 +22,3 @@ def sorted_chara_count(unsorted_dict):
         new_ls.append(new_dict)
     new_ls.sort(reverse=True, key=sort_on)
     return new_ls
-
