@@ -5,14 +5,19 @@ def get_book_content(relative_path):
         text_content = book.read()
     return text_content
 
+def chara_print_format(sorted_list):
+    for pair in sorted_list:
+        if pair["char"].isalpha():
+            char = pair["char"]
+            num = pair["num"]
+            print(f"{char}: {num}")
+
 def main():
     total_words = word_count(get_book_content("books/frankenstein.txt"))
-    print(f"{total_words} words found in the document")
+    print(f"Found {total_words} total words")
     each_chara_count_dict = character_count(get_book_content("books/frankenstein.txt"))
-    # print(each_chara_count_dict)
 
-    # test
-    sorted_chara_count(each_chara_count_dict)
+    chara_print_format(sorted_chara_count(each_chara_count_dict))
     
 
 main()

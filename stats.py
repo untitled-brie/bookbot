@@ -10,11 +10,16 @@ def character_count(text):
             count_dict[chara] += 1
     return count_dict
 
+def sort_on(dict):
+    return dict["num"]
+
 def sorted_chara_count(unsorted_dict):
-    new_list = []
+    new_ls = []
     for key,value in unsorted_dict.items():
         new_dict = {}
         new_dict["char"] = key
         new_dict["num"] = value
-        new_list.append(new_dict)
-    print(new_list)
+        new_ls.append(new_dict)
+    new_ls.sort(reverse=True, key=sort_on)
+    return new_ls
+
