@@ -9,6 +9,6 @@
 
 ### how to run
 1. clone repo
-2. create a folder to store the `*.txt` file
-3. from the repo's root folder, run `python3 main.py <relative_path_to_book>` in the terminal
-4. enjoy!
+2. create a folder to store your `*.txt` file
+3. from the repo's root folder, run `python3 main.py <relative_path_to_txt_file>` in the terminal
+4. it will probably work
