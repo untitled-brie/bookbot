@@ -1,8 +1,8 @@
 # worstbookbot
 
 ### what it does
-1. prints the world count of a `*.txt` file to the terminal
-2. prints how many times each alphabet character were used in the `*.txt` to the terminal
+1. prints the word count of a `*.txt` file to the terminal
+2. prints how many times each alphabet characters were used in the `*.txt` to the terminal
 
 ### dependencies
 1. python
